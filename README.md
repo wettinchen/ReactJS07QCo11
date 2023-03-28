@@ -66,7 +66,8 @@ https://www.youtube.com/@DaveGrayTeachesCode
         JavaScript: const handleCheck ......
 
 ### 12. The handleCheck function <Code更動>
-        設定格子的勾選和取消勾選功能。
+        設定格子的勾選和取消勾選的功能，
+        便能勾選與取消勾選。。
 
         JavaScript: const listItems ......
 
@@ -75,7 +76,7 @@ https://www.youtube.com/@DaveGrayTeachesCode
         Content 下層 state 的資料。
 
 ### 14. Saving state to localStorage
-        將選單的項目存入 localStorage
+        將選單的項目存入 localStorage。
 
         JavaScript: localStorage ......
 
@@ -90,6 +91,7 @@ https://www.youtube.com/@DaveGrayTeachesCode
         取消打勾時，選單項目橫線會消除。
 
         HTML: <??? style={???}>
+        CSS: {???: "line-through"}
         JavaScript: {(???.checked) ...}
 
 ### 17. Adding an onClick listener
@@ -116,6 +118,11 @@ https://www.youtube.com/@DaveGrayTeachesCode
         HTML: <ul>...</ul> <p style={}>Your list is empty.<p>
         CSS: marginTop: "2rem"
         JavaScript: ??? <ul>...</ul> ???
+
+        Hint:
+        (HTML element)
+        {{CSS style}}
+        {JavaScript expression}
 
 ### 20. When will we load state from localStorage?
         概述下一章的內容。
